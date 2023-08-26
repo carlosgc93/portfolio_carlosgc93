@@ -1,0 +1,165 @@
+/* estilos generales */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Lilita One', cursive;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Lilita One', cursive;
+}
+
+h3 {
+    font-family: 'Lilita One', cursive;
+}
+
+h5 {
+    font-family: 'Lilita One', cursive;
+}
+
+/* barra de navegacion */
+.navbar {
+    padding: 2rem;
+    background-color: rgb(199, 186, 169);
+    font-family: 'Lilita One', cursive;
+    font-size: 1.1rem;
+}
+
+/* .profile-pic */
+
+
+.heroe-pic {
+    width: 210px;
+    height: 210px;
+    border-radius: 40%;
+    margin: 12px;
+
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #302828;
+    font-family: 'Lilita One', cursive;
+}
+
+.heroe-inferior {
+    font: optional;
+}
+
+.heroe-inferior-pic {
+    width: 380px;
+    height: 230px;
+    max-width: 15px;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* seccion hero */
+.hero {
+    background-color: antiquewhite;
+    min-height: 450px;
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+
+.hero-principal {
+    padding: 10px;
+}
+
+.sobre-mi {
+    background-color: rgb(223, 188, 144);
+    text-align: center;
+
+    padding: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.sobre-mi .contenedor {
+
+    text-align: center;
+}
+
+.seccion-titu {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Lilita One', cursive;
+}
+
+
+.seccion-texto {
+    font-family: 'Lilita One', cursive;
+    font-size: 1.5rem;
+}
+
+.proyectos {
+    font-family: 'Lilita One', cursive;
+    background-color: rgb(220, 225, 179);
+    text-align: center;
+    padding: 5px;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+
+}
+
+.cursos {
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    width: 100%;
+
+}
+
+
+.carousel {
+    height: 100%;
+}
+
+.img-dev {
+    width: 40%;
+}
+
+
+.seccion-oscura {
+    background-color: rgb(209, 183, 146);
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .heroe-inferior-pic {
+        max-width: 600px;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .profile-pic {
+        max-width: auto;
+    }
+}
